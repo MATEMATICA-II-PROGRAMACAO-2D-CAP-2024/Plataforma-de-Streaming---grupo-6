@@ -3,11 +3,17 @@
     --cinza-secundario:#595959;
     --botao-azul:rgb(155, 0, 0);
     --cor-de-fundo:#dc0000;
+    --fonte-principal: 'inter;'
 }
+
 
 body{
     background-color: var(--cor-de-fundo);
     color: var(--cor-preta);
+    font-family: var(--branco-principal);
+    font-size: 16px
+    font-weight: 400;
+
 }
 
 *{
@@ -21,6 +27,31 @@ background-repeat: no-repeat;
 background-size: contain;
 }
 
+.container_botao{
+    height: 100vh
+}
+.container__botao{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em
+    color; var(--branco-principal);
+    display: block;
 
+}
+.container{
+    height: 100vh
+    display: grid;
+    grid-tenplate-colums: 50% 50%
+
+}
+.botao_secundario{
+    background-color: transparent;
+    border: 2px solidvar-(--ranco_principal)
+    
+}
+.conatiner_aviso{
+    font-size: 12px;
+    color
+}
 
 
