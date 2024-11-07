@@ -1,9 +1,9 @@
 :root{
     --cor-preta:#000000;
     --cinza-secundario:#595959;
-    --botao-azul:rgb(155, 0, 0);
+    --botao-azul:#167BF7;
     --cor-de-fundo:#dc0000;
-    --fonte-principal: 'inter;'
+    --fonte-principal: 'Inter';
 }
 
 
@@ -11,7 +11,7 @@ body{
     background-color: var(--cor-de-fundo);
     color: var(--cor-preta);
     font-family: var(--branco-principal);
-    font-size: 16px
+    font-size: 16px;
     font-weight: 400;
 
 }
@@ -23,13 +23,19 @@ body{
 
 .principal{
     background-image: url("./img/abstract-red-black-futuristic-gaming-background-livestream-panel_562076-45.avif");
-background-repeat: no-repeat;
-background-size: contain;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
-.container_botao{
-    height: 100vh
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
 }
+
 .container__botao{
     background-color: var(--botao-azul);
     border-radius: 5px;
@@ -40,12 +46,7 @@ background-size: contain;
     margin-bottom: 1em;
 
 }
-.container{
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 50% 50%;
 
-}
 .botao_secundario{
     background-color: transparent;
     border: 2px solid var-(--branco-principal)
@@ -53,6 +54,7 @@ background-size: contain;
 }
 .conatiner__aviso{
     font-size: 12px;
+    color: var(--cinza-secundario);
 
 }
 
